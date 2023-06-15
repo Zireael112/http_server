@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Ticket's app</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="form-ticket">
+      <button class="btn btn-success btn-add-ticket">Добавить</button>
+      <div class="tickets-list"></div>
+    </div>
+
+    <div class="input-ticket" style="display: none">
+      <div class="input-title">Добавить тикет</div>
+
+      <form class="add-ticket-form" method="POST" action="http://localhost:7070">
+
+        <div class="input-short-description">
+          <div class="short-desc-title">Краткое описание</div>
+          <input class="container-fluid inp short-inp" name="name" type="text" required>
+        </div>
+
+        <div class="input-full-description">
+          <div class="full-desc-title">Подробное описание</div>
+          <input class="container-fluid inp full-inp" name="description" type="text" required>
+        </div>
+
+        <div class="input-footer">
+          <button class="btn btn-danger btn-close-input" form="doesnt-exists-form">Отмена</button>
+          <button class="btn btn-success btn-send-request">OK</button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</body>
+</html>

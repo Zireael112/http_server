@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(84, 84, 216);
+}
+
+.wrapper {
+    border: 2px solid black;
+}
+
+.btn-add-ticket {
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.input-ticket {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.input-title {
+    text-align: center;
+}
+
+.input {
+    margin: 10px;
+    width: 95%;
+}
+
+.input-short-description {
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+.input-full-description {
+    margin: 10px;
+}
+
+.full-desc-title {
+    margin-bottom: 5px;
+}
+
+.short-desc-title {
+    margin-bottom: 5px;
+}
+
+.inp {
+    width: 100%;
+}
+
+.input-footer {
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    justify-content: right;
+}
+
+.btn-close-input {
+    margin-right: 15px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.tickets-list {
+    margin: 10px;
+    border: 1px solid white;
+    width: 50%;
+    border-radius: 10px;
+    border-bottom: 0;
+}
+
+.ticket {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+}
+
+.pen {
+    text-align: center;
+    margin-top: 1px;
+}
+
+.cross {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.text {
+    color: white;
+    align-items: center;
+}
+
+.todo:hover {
+    cursor: pointer;
+}
+
+.check {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.text-cont {
+    break-before: column;
+}
+
+.addition {
+    margin-top: 10px;
+    max-width: 500px;
+    margin-bottom: 2px;
+}
